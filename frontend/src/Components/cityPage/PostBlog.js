@@ -1,7 +1,9 @@
 import React from 'react'
-
+import About from './About'
 export const PostBlog = () => {
   return (
-    <div>PostBlog</div>
+    <div>
+      <About />
+    </div>
   )
 }
