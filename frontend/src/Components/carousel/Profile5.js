@@ -1,6 +1,6 @@
 import React from "react";
-import profile from "../../assets/elephant.png";
-const Profile = () => {
+import profile from "../../assets/user.png";
+const Profile5 = () => {
   return (
     <div>
       <div class="w-full max-w-xs bg-slate-300 border border-gray-200 rounded-lg shadow ">
@@ -10,8 +10,8 @@ const Profile = () => {
             src={profile}
             alt="Bonnie image"
           />
-          <h5 class="mb-1 text-xl font-medium text-gray-900 ">Bonnie Green</h5>
-          <span class="text-sm text-gray-500 ">Visual Designer</span>
+          <h5 class="mb-1 text-xl font-medium text-gray-900 ">Balayya</h5>
+          <span class="text-sm text-gray-500 ">Actor</span>
           <div class="flex mt-4 space-x-3 md:mt-6">
             <a
               href="#"
@@ -32,4 +32,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Profile5;
