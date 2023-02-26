@@ -2,7 +2,8 @@ import React from "react";
 import Hashtags from "./Hashtags";
 export const AddPhotos = () => {
   return (
-    <div className="w-1/3 m-auto ">
+    <div className="w-1/3 border bg-[#b96683] p-4 rounded-xl m-auto ">
+      <h2 className="text-xl font-semibold underline">Share A Photo</h2>
       <form action="#" className="w-full">
         <div className="user-name mt-2">
           <label

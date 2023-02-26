@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 // import elephant from "../elephant.png";
 // import amsterdam from "../amsterdam.png";
-import street from "../street.jpg";
+import street from "../assets/street.jpg";
 export const PostCard = () => {
   const navigate = useNavigate();
   function handleClick() {

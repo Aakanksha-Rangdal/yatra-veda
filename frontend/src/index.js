@@ -2,14 +2,20 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import { PostBlog } from "./Components/cityPage/PostBlog";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Carousel } from "./Components/carousel/Carousel";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/city" element={<PostBlog />} />
+        <Route path="/surfers" element={<Carousel />} />
+      </Routes>
     </Router>
   </React.StrictMode>
 );

@@ -7,11 +7,11 @@ import { PostBlog } from "./Components/cityPage/PostBlog";
 // import { PostBlog } from "./Components/cityPage/PostBlog";
 function App() {
   return (
-    <div className="App w-5/6 max-h-full m-auto ">
+    <div className="App w-10/12  m-auto ">
       <div className="">
         <NavBar />
       </div>
-      {/* <div className="my-10">
+      <div className="my-10">
         <Search />
       </div>
       <div className="posts w-full grid grid-cols-3 gap-6">
@@ -20,8 +20,7 @@ function App() {
         <PostCard />
         <PostCard />
         <PostCard />
-      </div> */}
-      <PostBlog />
+      </div>
     </div>
   );
 }
