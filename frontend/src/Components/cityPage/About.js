@@ -13,14 +13,7 @@ export default class About extends Component {
           <div className="description">
             <h2 className="text-5xl font-semibold">Culture</h2>
             <p className="my-2 text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              veniam eum numquam nam obcaecati labore neque ratione quia quo
-              eaque, earum dicta libero magnam aliquid fugiat, porro voluptate
-              autem. Voluptatem, magnam sunt quidem dignissimos inventore
-              dolores alias dolore nulla pariatur nostrum aliquid eligendi fuga
-              qui neque provident, impedit nemo esse, fugit sapiente hic minus
-              error? Ad eveniet sapiente, quia ea saepe ratione vitae officiis
-              consequatur minima cum, eius atque iure.
+            Culture is a complex concept that includes beliefs, customs, values, behaviors, and artifacts that define a society. It is an essential aspect of human identity, shaping how we view ourselves and the world around us. Through exploring different cultures, we can broaden our horizons and develop a more inclusive and empathetic view of the world.
             </p>
           </div>
         </div>
